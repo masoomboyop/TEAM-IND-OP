@@ -345,7 +345,7 @@ async def play(_, message: Message):
     
 @Client.on_message(commandpro([".pause", "/pause", "pause", ".pse"]) & other_filters)
 @errors
-@authorized_users_only
+#@authorized_users_only
 async def pause(_, message: Message):
     await message.delete()
     await clientbot.pytgcalls.pause_stream(message.chat.id)
@@ -355,7 +355,7 @@ async def pause(_, message: Message):
 
 @Client.on_message(commandpro([".resume", "/resume", "resume", ".rsm"]) & other_filters)
 @errors
-@authorized_users_only
+#@authorized_users_only
 async def resume(_, message: Message):
     await message.delete()
     await clientbot.pytgcalls.resume_stream(message.chat.id)
@@ -366,7 +366,7 @@ async def resume(_, message: Message):
 
 @Client.on_message(commandpro([".skip", "skip", "/skip", ".skp"]) & other_filters)
 @errors
-@authorized_users_only
+#@authorized_users_only
 async def skip(_, message: Message):
     global que
     await message.delete()
@@ -396,7 +396,7 @@ async def skip(_, message: Message):
 
 @Client.on_message(commandpro([".end", "/end", "end", "x", ".stp"]) & other_filters)
 @errors
-@authorized_users_only
+#@authorized_users_only
 async def stop(_, message: Message):
     await message.delete()
     try:
