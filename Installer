@@ -4,11 +4,11 @@ asyncio
 dnspython
 ffmpeg-python
 future
-git+https://github.com/IamBikashhlder/downloader@master
+git+https://github.com/IamBikashHalder/downloader@master
 motor
 pillow
 psutil
-pyrogram
+pyrogram==1.4.16
 py-tgcalls
 python-dotenv
 requests
