@@ -31,7 +31,7 @@ Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Aԃԃ Mҽ Tσ Yσυɾ Gɾσυρ ❱ ➕", url=f"https://t.me/bikashxrobot?startgroup=true")
+                        "➕ ❰ Aԃԃ Mҽ Tσ Yσυɾ Gɾσυρ ❱ ➕", url=f"https://t.me/dotvcrobot?startgroup=true")
                 ]
                 
            ]
@@ -39,7 +39,7 @@ Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
     )
     
     
-@Client.on_message(commandpro(["/start", "/start@bikashxrobot", "/alive", "/BGT",  ".Kaal"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/start@dotvcrobot", "/alive", "/BGT",  ".Kaal"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/b559b922fe86fc0ab2285.png",
