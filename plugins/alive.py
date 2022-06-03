@@ -31,7 +31,7 @@ Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Aԃԃ Mҽ Tσ Yσυɾ Gɾσυρ ❱ ➕", url=f"https://t.me/BGTMUSICBOTbot?startgroup=true")
+                        "➕ ❰ Aԃԃ Mҽ Tσ Yσυɾ Gɾσυρ ❱ ➕", url=f"https://t.me/BGTMUSICBOT?startgroup=true")
                 ]
                 
            ]
