@@ -14,6 +14,10 @@
             "description": "Your App Hash",
             "required": true
         },
+        "BOT_USERNAME": {
+            "description": "Put Bot Username without @",
+            "required": true
+        },
         "BOT_TOKEN": {
             "description": "Put Bot Token Of Your Bot",
             "required": true
