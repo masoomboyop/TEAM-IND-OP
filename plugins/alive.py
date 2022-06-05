@@ -1,6 +1,7 @@
 import asyncio
 from time import time
 from datetime import datetime
+from modules.config import BOT_USERNAME
 from modules.helpers.filters import command
 from modules.helpers.command import commandpro
 from pyrogram import Client, filters
@@ -31,7 +32,7 @@ Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Aԃԃ Mҽ Tσ Yσυɾ Gɾσυρ ❱ ➕", url=f"https://t.me/BGTMUSICBOT?startgroup=true")
+                        "➕ ❰ Aԃԃ Mҽ Tσ Yσυɾ Gɾσυρ ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
                 
            ]
@@ -39,7 +40,7 @@ Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
     )
     
     
-@Client.on_message(commandpro(["/start", "/start@BGTMUSICBOT", "/alive", "/BGT",  ".Kaal"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", f"/start@{BOT_USERNAME}", "/alive", "/BGT",  ".Kaal"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/b559b922fe86fc0ab2285.png",
