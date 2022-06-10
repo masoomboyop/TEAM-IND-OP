@@ -3,6 +3,16 @@
 
 <p align="center"><a href="https://t.me/BikashHalder"><img src="https://te.legra.ph/file/840fed0100164af249bb8.png"></a></p>
 
+## Telegram 🏪
+
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/BGT_Chat)
+
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/Bikashgedgetstech)
+
+## YouTube 📺
+
+[YouTube Channel](https://youtube.com/channel/UCUkj6FFzdsOO5acUXVOEECg)
+
 ### Deploy To Heroku
 
 [![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/IAMBIKASHHALDER/AdityaBikashPlayer)
