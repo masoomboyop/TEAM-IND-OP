@@ -123,7 +123,7 @@ async def play(_, message: Message):
     global que
     global useer
     await message.delete()
-    lel = await message.reply("**🔎 Bgt Searching ...**")
+    lel = await message.reply("**🔎 Zoney Ki GF Bhag Gai ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -188,7 +188,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jσιɳ Oυɾ Cԋαƚ Gɾσυρ 💞",
-                            url=f"https://t.me/Bgt_Chat")
+                            url=f"https://t.me/FULL_ON_MOJJ_MASTI")
 
                 ]
             ]
@@ -227,7 +227,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jσιɳ Oυɾ Cԋαƚ Gɾσυρ 💞",
-                            url=f"https://t.me/Bgt_Chat")
+                            url=f"https://t.me/FULL_ON_MOJJ_MASTI")
 
                 ]
             ]
@@ -243,7 +243,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jσιɳ Oυɾ Cԋαƚ Gɾσυρ 💞",
-                            url=f"https://t.me/Bgt_Chat")
+                            url=f"https://t.me/FULL_ON_MOJJ_MASTI")
 
                 ]
             ]
@@ -297,7 +297,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jσιɳ συɾ Cԋαƚ Gɾσυρ 🌺",
-                            url=f"https://t.me/Bgt_Chat")
+                            url=f"https://t.me/FULL_ON_MOJJ_MASTI")
 
                 ]
             ]
@@ -382,7 +382,7 @@ async def skip(_, message: Message):
         if queues.is_empty(chat_id):
             await clientbot.pytgcalls.leave_group_call(chat_id)
         else:
-            await message.reply_text("**⏩ Sƙιρρҽԃ 🔜 ...**") 
+            await message.reply_text("*Baby tum bohot Gande ho 🥺...**") 
             await clientbot.pytgcalls.change_stream(
                 chat_id, 
                 InputStream(
@@ -405,7 +405,7 @@ async def stop(_, message: Message):
         pass
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text("**❌ Sƚσρρҽԃ 🔚 ...**"
+    await message.reply_text("**Baby tum bohot Gande ho 🥺...**"
     )
 
 
