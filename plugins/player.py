@@ -131,7 +131,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "꧁🕊 Ɩ'M⚡Bikคsђ 🕊꧂"
+        user.first_name = "𓆩𝐈𝐍𝐃🇮🇳𓆪 ❥ ̶͢ ̶ͨ ̶ͧ ̶ͭ ̶ͤ❤⃝⃝𝐑𝐔𝐂𝐇𝐈𝐓𓆩♡𓆪🥀』"
     usar = user
     wew = usar.id
     try:
@@ -262,7 +262,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**🤖 Gιʋҽ 🙃 Mυʂιƈ 💿 Nαɱҽ 😍\n💞 Tσ 🔊 Pʅαყ 🥀 Sσɳɠ 🌷...**"
             )
-        await lel.edit("**🔄 Pɾσʂҽʂʂιɳɠ ...**")
+        await lel.edit("**🔄 𝐓𝐡𝐨𝐝𝐚 𝐖𝐚𝐢𝐭 𝐁𝐚𝐛𝐲 🥺 ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -319,7 +319,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 Bɠƚ 🌷 Mυʂιƈ 💿 Nσɯ❗️\n🔊 Qυҽυҽԃ 🌀 αƚ » `{}` 🌸 ...**".format(position),
+            caption="**💥 𝑻𝒆𝒂𝒎 𝑰𝒏𝒅 🌷 Mυʂιƈ 💿 Nσɯ❗️\n🔊 Qυҽυҽԃ 🌀 αƚ » `{}` 🌸 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -336,7 +336,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 Bɠƚ 🌺 Mυʂιƈ 🎸 Nσɯ 💞\n🔊 Pʅαყιɳɠ 😍 σρ 🥀 ...**".format(),
+            caption="**💥 𝑻𝒆𝒂𝒎 𝑰𝒏𝒅 🌺 Mυʂιƈ 🎸 Nσɯ 💞\n🔊 Pʅαყιɳɠ 😍 σρ 🥀 ...**".format(),
            )
 
     os.remove("final.png")
