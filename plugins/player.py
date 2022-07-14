@@ -375,7 +375,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💠 Nσƚԋιɳɠ 🔇 Pʅαყιɳɠ ❎ ...**")
+        await message.reply_text("**Baby tum bohot Gande ho 🥺... ...**")
     else:
         queues.task_done(chat_id)
         
