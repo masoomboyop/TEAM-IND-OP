@@ -12,17 +12,17 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/b559b922fe86fc0ab2285.png",
+        photo=f"https://telegra.ph/file/43ef267b4ffb3cc9f5c38.png",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 🐯 Hҽʅʅσ, I αɱ Sυρҽɾϝαʂƚ Hιɠԋ Qυαʅιƚყ 
 Nσ Lαɠ Vƈ Mυʂιƈ Pʅαყҽɾ Bσƚ.
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ Cɾҽαƚσɾ 🛠️  [Bιƙαʂԋ Hαʅԃҽɾ](https://t.me/BikashHalder)
-┣★ Cɾҽαƚσɾ 🛠️ [Aԃιƚყα Hαʅԃҽɾ](https://t.me/AdityaHalder)
-┣★ Uρԃαƚҽʂ 📢 [Bɠƚ Bɾαɳԃ](https://t.me/BikashGedgetsTech)
-┣★ Sυρρσɾƚ ☣️ [Bɠƚ Cԋαƚ](https://t.me/Bgt_chat)
-┣★ Cԋαƚƚιɳɠ ©️ [Bɠƚ Cԋαƚ](https://t.me/adityadiscus)
+┣★ Cɾҽαƚσɾ 🛠️  [𝐌𝐀𝐒𝐎𝐎𝐌 𝐁𝐎𝐘](https://t.me/MASOOM_B0Y)
+┣★ Cɾҽαƚσɾ 🛠️ [𝐙𝐎𝐍𝐄𝐘 𝐎𝐏](https://t.me/itszoney)
+┣★ Uρԃαƚҽʂ 📢 [𝐓𝐄𝐀𝐌 𝐈𝐍𝐃](https://t.me/TEAM_IND_OFFICIAL)
+┣★ Sυρρσɾƚ ☣️ [𝐅𝐔𝐋𝐋 𝐎𝐍 𝐌𝐎𝐉 𝐌𝐀𝐒𝐓𝐈](https://t.me/FULL_ON_MOJJ_MASTI)
+┣★ Cԋαƚƚιɳɠ ©️ [𝐅𝐔𝐋𝐋 𝐎𝐍 𝐌𝐎𝐉 𝐌𝐀𝐒𝐓𝐈](https://t.me/FULL_ON_MOJJ_MASTI)
 ┗━━━━━━━━━━━━━━━━━┛
 
 🗽 Jυʂƚ Aԃԃ Mҽ » Tσ Yσυɾ Gɾσυρ Aɳԃ
@@ -43,13 +43,13 @@ Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
 @Client.on_message(commandpro(["/start", f"/start@{BOT_USERNAME}", "/alive", "/BGT",  ".Kaal"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/b559b922fe86fc0ab2285.png",
+        photo=f"https://telegra.ph/file/60e58cb38d433b6d3f9be.png",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⛪ Jσιɳ Oυɾ Cԋαƚ Gɾσυρ  🗽", url=f"https://t.me/BGT_CHAT")
+                        "⛪ Jσιɳ Oυɾ Cԋαƚ Gɾσυρ  🗽", url=f"https://t.me/FULL_ON_MOJJ_MASTI")
                 ]
             ]
         ),
@@ -65,7 +65,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⛪ Cʅιƈƙ Mҽ Tσ Gҽƚ Rҽρσ 🗽", url=f"https://t.me/BikashHalder")
+                        "⛪ Cʅιƈƙ Mҽ Tσ Gҽƚ Rҽρσ 🗽", url=f"https://github.com/fullmojmasti/OP-MUSIC")
                 ]
             ]
         ),
