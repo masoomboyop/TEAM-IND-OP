@@ -37,15 +37,15 @@ useer = "NaN"
 
 themes = [
     "blue",
-    "colorfull",
-    "dgreen",
-    "green",
-    "orange",
+    "love",
+    "cutepie",
+    "rose",
+    "Sky",
     "pink",
-    "purple",
-    "rainbow",
-    "red",
-    "yellow",
+    "rabbit",
+    "mastii",
+    "cutegirl",
+    "cutedoll",
 ]
 
 def transcode(filename):
