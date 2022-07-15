@@ -17,13 +17,13 @@ async def start_(client: Client, message: Message):
 🐯 Hҽʅʅσ, I αɱ Sυρҽɾϝαʂƚ Hιɠԋ Qυαʅιƚყ 
 Nσ Lαɠ Vƈ Mυʂιƈ Pʅαყҽɾ Bσƚ.
 
-┏━━━━━━━━━━━━━━━━━━━━━━┓
+┏━━━━━━━━━━━━━━━━━━━━┓
 ┣★ Cɾҽαƚσɾ 🛠️  [𝐌𝐀𝐒𝐎𝐎𝐌 𝐁𝐎𝐘](https://t.me/MASOOM_B0Y)
 ┣★ Cɾҽαƚσɾ 🛠️ [𝐙𝐎𝐍𝐄𝐘 𝐎𝐏](https://t.me/itszoney)
 ┣★ Uρԃαƚҽʂ 📢 [𝐓𝐄𝐀𝐌 𝐈𝐍𝐃](https://t.me/TEAM_IND_OFFICIAL)
 ┣★ Sυρρσɾƚ ☣️ [𝐅𝐔𝐋𝐋 𝐎𝐍 𝐌𝐎𝐉 𝐌𝐀𝐒𝐓𝐈](https://t.me/FULL_ON_MOJJ_MASTI)
 ┣★ Cԋαƚƚιɳɠ ©️ [𝐅𝐔𝐋𝐋 𝐎𝐍 𝐌𝐎𝐉 𝐌𝐀𝐒𝐓𝐈](https://t.me/FULL_ON_MOJJ_MASTI)
-┗━━━━━━━━━━━━━━━━━━━━━━┛
+┗━━━━━━━━━━━━━━━━━━━━┛
 
 🗽 Jυʂƚ Aԃԃ Mҽ » Tσ Yσυɾ Gɾσυρ Aɳԃ
 Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
