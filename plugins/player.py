@@ -328,13 +328,13 @@ async def play(_, message: Message):
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
-            ),
+        ],
         )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
                 f"**💥 Pʅαყ 🔊 Mυʂιƈ 💿 Lҽʂʂ ⚡️\n🤟 Tԋαɳ⚡️ {DURATION_LIMIT} 💞 Mιɳυƚҽ ...**"
-            )
+                ]
             return
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)
