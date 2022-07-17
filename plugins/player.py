@@ -292,9 +292,9 @@ async def play(_, message: Message):
             thumb_name = "https://te.legra.ph/file/b559b922fe86fc0ab2285.png"
             duration = "NaN"
             views = "NaN"
+
             keyboard = InlineKeyboardMarkup(
             [
-[
             InlineKeyboardButton(
                 text=f"{played} •{bar}• {dur}",
                 callback_data="GetTimer",
@@ -328,8 +328,8 @@ async def play(_, message: Message):
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
-        ]
-            ]       
+        ],
+        )      
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
