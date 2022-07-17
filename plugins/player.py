@@ -294,7 +294,7 @@ async def play(_, message: Message):
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
-(
+[
             InlineKeyboardButton(
                 text=f"{played} •{bar}• {dur}",
                 callback_data="GetTimer",
