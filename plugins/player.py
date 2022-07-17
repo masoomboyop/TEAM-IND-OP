@@ -294,7 +294,7 @@ async def play(_, message: Message):
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
-[
+(
             InlineKeyboardButton(
                 text=f"{played} •{bar}• {dur}",
                 callback_data="GetTimer",
@@ -328,7 +328,7 @@ async def play(_, message: Message):
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
-        ],
+            ),
         )
 
         if (dur / 60) > DURATION_LIMIT:
