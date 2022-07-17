@@ -328,8 +328,8 @@ async def play(_, message: Message):
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
-        ],
-        )
+        ]
+            ]       
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
