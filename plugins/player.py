@@ -183,42 +183,18 @@ async def play(_, message: Message):
         duration = round(audio.duration / 60)
         views = "Locally added"
 
-        keyboard = InlineKeyboardMarkup(
-            [
-            InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
-                callback_data="GetTimer",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="▷",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✯ ᴍᴇɴᴜ ✯",
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/FULL_ON_MOJJ_MASTI"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            )
-        ],
+   keyboard = InlineKeyboardMarkup(
+                  [[
+                      InlineKeyboardButton("⏹", callback_data="cbstop"),
+                      InlineKeyboardButton("⏸", callback_data="cbpause"),
+                      InlineKeyboardButton('⏭️', callback_data="skip"),
+                      InlineKeyboardButton("▶️", callback_data="cbresume"),
+                  ],[
+                      InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/FULL_ON_MOJJ_MASTI"),
+                      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TEAM_IND_OFFICIAL"),
+                  ],[
+                      InlineKeyboardButton("🗑", callback_data="cls")],
+                  ]
         )
 
         requested_by = message.from_user.first_name
@@ -249,42 +225,18 @@ async def play(_, message: Message):
                 dur += int(dur_arr[i]) * secmul
                 secmul *= 60
 
-            keyboard = InlineKeyboardMarkup(
-            [
-            InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
-                callback_data="GetTimer",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="▷",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✯ ᴍᴇɴᴜ ✯",
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/FULL_ON_MOJJ_MASTI"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            )
-        ],
+               keyboard = InlineKeyboardMarkup(
+                  [[
+                      InlineKeyboardButton("⏹", callback_data="cbstop"),
+                      InlineKeyboardButton("⏸", callback_data="cbpause"),
+                      InlineKeyboardButton('⏭️', callback_data="skip"),
+                      InlineKeyboardButton("▶️", callback_data="cbresume"),
+                  ],[
+                      InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/FULL_ON_MOJJ_MASTI"),
+                      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TEAM_IND_OFFICIAL"),
+                  ],[
+                      InlineKeyboardButton("🗑", callback_data="cls")],
+                  ]
         )
 
         except Exception as e:
@@ -293,42 +245,18 @@ async def play(_, message: Message):
             duration = "NaN"
             views = "NaN"
 
-            keyboard = InlineKeyboardMarkup(
-            [
-            InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
-                callback_data="GetTimer",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="▷",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✯ ᴍᴇɴᴜ ✯",
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/FULL_ON_MOJJ_MASTI"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            )
-        ],
+               keyboard = InlineKeyboardMarkup(
+                  [[
+                      InlineKeyboardButton("⏹", callback_data="cbstop"),
+                      InlineKeyboardButton("⏸", callback_data="cbpause"),
+                      InlineKeyboardButton('⏭️', callback_data="skip"),
+                      InlineKeyboardButton("▶️", callback_data="cbresume"),
+                  ],[
+                      InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/FULL_ON_MOJJ_MASTI"),
+                      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TEAM_IND_OFFICIAL"),
+                  ],[
+                      InlineKeyboardButton("🗑", callback_data="cls")],
+                  ]
         )      
 
         if (dur / 60) > DURATION_LIMIT:
@@ -374,42 +302,18 @@ async def play(_, message: Message):
             print(str(e))
             return
 
-        keyboard = InlineKeyboardMarkup(
-         [
-            InlineKeyboardButton(
-                text=f"{played} •{bar}• {dur}",
-                callback_data="GetTimer",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="▷",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="✯ ᴍᴇɴᴜ ✯",
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/FULL_ON_MOJJ_MASTI"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            )
-        ],
+           keyboard = InlineKeyboardMarkup(
+                  [[
+                      InlineKeyboardButton("⏹", callback_data="cbstop"),
+                      InlineKeyboardButton("⏸", callback_data="cbpause"),
+                      InlineKeyboardButton('⏭️', callback_data="skip"),
+                      InlineKeyboardButton("▶️", callback_data="cbresume"),
+                  ],[
+                      InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/FULL_ON_MOJJ_MASTI"),
+                      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/TEAM_IND_OFFICIAL"),
+                  ],[
+                      InlineKeyboardButton("🗑", callback_data="cls")],
+                  ]
         )
 
         if (dur / 60) > DURATION_LIMIT:
